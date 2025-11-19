@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using AlgorithmsExercise;
+using AlgorithmsExercise._02_Prefix_Sum_Pattern;
 
 Console.WriteLine("Hello, World!");
 
@@ -17,6 +18,16 @@ var solution = new CinemaSeatAllocation();
 Console.WriteLine(solution.MaxNumberOfGroups(n, reservedSeats)); */
 
 /*Zigzag Conversion*/
-var solution = new ZigzagConversion();
+/*var solution = new ZigzagConversion();
 var result = solution.Convert("PAYPALISHIRING", 3);
+Console.WriteLine(result);*/
+
+
+/*Maximum Average SubArray*/
+/*var maximumAverage = new MaximumAverageSubarray_I();
+var result = maximumAverage.FindMaxAverage([-1], 1);
+Console.WriteLine(result);*/
+
+var result = ContiguousArray.Compute([0,1,1,1,1,1,0,0,0]);
 Console.WriteLine(result);
+
